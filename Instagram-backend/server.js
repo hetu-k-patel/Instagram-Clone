@@ -6,7 +6,7 @@ import Pusher from 'pusher';
 // AppConfig
 const app = express();
 const port = process.env.PORT || 9000;
-const connection_url = 'mongodb+srv://admin:admin@123@cluster0.jwxw8.mongodb.net/Instagram-Clone?retryWrites=true&w=majority';
+const connection_url = '';
 
 // Middlewares
 app.use(express.json());
